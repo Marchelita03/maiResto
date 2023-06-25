@@ -1,0 +1,4 @@
+view/admin/tambahDataAnggota.php line 34
+<?php foreach($jabatan as $j): ?>
+<option value="<?php echo $j->id_jabatan ?>"><?php echo $j->id_jabatan ?></option>
+<?php endforeach; ?>
